@@ -6,7 +6,7 @@ function App() {
   return (
     <div className={`transition duration-1000 ${data ? "bg-zinc-950" : "bg-yellow-600"}`}>
       <div className="flex justify-center items-center h-screen">
-        <div className={`w-51 h-22 border-8 rounded-full ${data ? "border-white" : "border-black"}`}>
+        <div className={`w-51 h-22 border-10 rounded-full ${data ? "border-white" : "border-black"}`}>
           <button
             onClick={() => setdata(!data)}
             className={`transition duration-700 px-7 py-5 rounded-4xl border-4 font-bold bg-amber-700 text-white 
